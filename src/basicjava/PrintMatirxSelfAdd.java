@@ -4,11 +4,11 @@ package basicjava;
 @version 1.0
 */
 
-import java.util.Arrays;
-import java.util.Random;
+import LearnOop.GetandSet.Books;
+
 import java.util.Scanner;
 
-public class CompareLogicExer {
+public class PrintMatirxSelfAdd {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("input how much line U want");
@@ -30,5 +30,14 @@ public class CompareLogicExer {
                 }
         int[][]al={{1,1,2,3},{12,234,}};
         System.out.println(al[0][3]+1);
+
+
+
+        Books books =new Books();
+        books.setAuther(" me");
+        books.setName(" the story of Dandao");
+        books.setPrice(1280);
+        books.setPublisher(" China Book ");
+        books.getAllInfo();
     }
 }

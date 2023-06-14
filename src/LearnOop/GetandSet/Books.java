@@ -5,9 +5,9 @@ package LearnOop.GetandSet;
 */
 
 public class Books {
-    double price;
-    String name;
-    String auther,Publisher;
+   private double price;
+    private String name;
+    private String auther,Publisher;
 
     public double getPrice() {
         return price;
@@ -40,4 +40,8 @@ public class Books {
     public void setPublisher(String publisher) {
         Publisher = publisher;
     }
+    public void  getAllInfo(){
+        System.out.println("Name is"+name+"   price is"+price+"   auther is "+auther);
+    }
+
 }
