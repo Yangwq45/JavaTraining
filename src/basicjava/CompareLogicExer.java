@@ -29,10 +29,6 @@ public class CompareLogicExer {
             System.out.println("\t");
                 }
         int[][]al={{1,1,2,3},{12,234,}};
-        int [][]al2=al;
-        int[][]al3={{1,1,3,3},{12,234,}};
-        System.out.println(al2==al);
-        System.out.println(al2.equals(al));
-        System.out.println(Arrays.equals(al3,al2));
+        System.out.println(al[0][3]+1);
     }
 }
