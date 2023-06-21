@@ -41,6 +41,7 @@ public class Person {
         Dog dog =(Dog)ani;
         dog.run();
 
-//
+//instance 判断
+//        if (dog instanceof Cat) System.out.println("Adog");
     }
 }
