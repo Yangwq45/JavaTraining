@@ -11,15 +11,15 @@ public class base {
     }
 
     public static void main(String[] args) {
-        base bas=new sub();
-        bas.display();
-        System.out.println(bas.a);
-        sub sub=base;//不能这么做，因为虽然base指向的是
-        sub.display();
-        System.out.println(sub.a);
-        System.out.println(sub==base);
-        Objects objects =new base();
-        objects
+//        base bas=new sub();
+//        bas.display();
+//        System.out.println(bas.a);
+//        sub sub=base;//不能这么做，因为虽然base指向的是sub对象，但base非sub类型
+//        sub.display();
+//        System.out.println(sub.a);
+//        System.out.println(sub==base);
+//        Objects objects =new base();
+//        objects
     }
 }
 class sub extends base{
