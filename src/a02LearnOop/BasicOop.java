@@ -1,11 +1,20 @@
-package LearnOop.GetandSet;
+package a02LearnOop;
 /*
 @author YwQ
 @version 1.0
 */
 
-public class Interface {
+import a02LearnOop.GetandSet.Books;
+
+public class BasicOop {
     public static void main(String[] args) {
+        Person pr = new Person();
+        pr.zhijing=12;
+        System.out.println(pr.GetSpace());
+        System.out.println(pr.method(10,4));
+        pr.getBirthdfay();
+
+        //From get and Set packet
         Books books =new Books();
         books.setAuther(" me");
         books.setName(" the story of Dandao");

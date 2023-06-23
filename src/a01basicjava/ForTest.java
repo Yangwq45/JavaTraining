@@ -1,4 +1,4 @@
-package basicjava;
+package a01basicjava;
 /*
 @author YwQ
 @version 1.0

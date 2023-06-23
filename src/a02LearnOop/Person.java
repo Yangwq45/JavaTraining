@@ -1,4 +1,4 @@
-package LearnOop;
+package a02LearnOop;
 /*
 @author YwQ
 @version 1.0

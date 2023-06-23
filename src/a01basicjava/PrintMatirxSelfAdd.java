@@ -1,10 +1,10 @@
-package basicjava;
+package a01basicjava;
 /*
 @author YwQ
 @version 1.0
 */
 
-import LearnOop.GetandSet.Books;
+import a02LearnOop.GetandSet.Books;
 
 import java.util.Scanner;
 

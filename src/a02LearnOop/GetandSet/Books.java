@@ -1,4 +1,4 @@
-package LearnOop.GetandSet;
+package a02LearnOop.GetandSet;
 /*
 @author YwQ
 @version 1.0

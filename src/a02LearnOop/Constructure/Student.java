@@ -1,4 +1,4 @@
-package LearnOop.Constructure;
+package a02LearnOop.Constructure;
 /*
 @author YwQ
 @version 1.0
