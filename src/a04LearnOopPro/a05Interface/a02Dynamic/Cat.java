@@ -12,6 +12,6 @@ public interface Cat {
 
     }
     public default void Barkdefault(){
-        System.out.println("default bark ");
+        System.out.println(" CAT default bark ");
     }
 }

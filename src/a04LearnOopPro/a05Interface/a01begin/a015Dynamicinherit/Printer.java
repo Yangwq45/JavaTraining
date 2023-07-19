@@ -1,4 +1,4 @@
-package a04LearnOopPro.a05Interface.a015Dynamicinherit;
+package a04LearnOopPro.a05Interface.a01begin.a015Dynamicinherit;
 /*
 @author YwQ
 @version 1.0
